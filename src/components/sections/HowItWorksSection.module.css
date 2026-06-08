@@ -1,0 +1,114 @@
+.how {
+  background-color: var(--color-bg-secondary);
+}
+
+.header {
+  text-align: center;
+  margin-bottom: var(--space-16);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-4);
+}
+
+.tag {
+  display: inline-flex;
+  padding: var(--space-1) var(--space-3);
+  background-color: rgba(240, 35, 0, 0.1);
+  color: var(--color-point);
+  border-radius: var(--radius-full);
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+}
+
+.title {
+  font-size: var(--font-size-4xl);
+  font-weight: 800;
+  line-height: 1.25;
+  letter-spacing: -1px;
+  color: var(--color-gray-800);
+}
+
+.steps {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0;
+  position: relative;
+}
+
+.stepItem {
+  position: relative;
+  padding: 0 var(--space-4);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-4);
+}
+
+.stepNum {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background-color: var(--color-main);
+  color: var(--color-gray-800);
+  font-size: var(--font-size-lg);
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  z-index: 1;
+}
+
+.connector {
+  position: absolute;
+  top: 28px;
+  left: calc(50% + 28px);
+  right: calc(-50% + 28px);
+  height: 2px;
+  background-color: var(--color-main);
+  opacity: 0.4;
+}
+
+.stepContent {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.stepTitle {
+  font-size: var(--font-size-base);
+  font-weight: 700;
+  color: var(--color-gray-800);
+}
+
+.stepDesc {
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-600);
+  line-height: 1.7;
+}
+
+@media (max-width: 900px) {
+  .steps {
+    grid-template-columns: 1fr;
+    gap: var(--space-8);
+  }
+
+  .stepItem {
+    flex-direction: row;
+    text-align: left;
+    align-items: flex-start;
+  }
+
+  .connector {
+    display: none;
+  }
+}
+
+@media (max-width: 640px) {
+  .title {
+    font-size: var(--font-size-2xl);
+  }
+}

@@ -1,0 +1,49 @@
+.cta {
+  background: linear-gradient(135deg, var(--color-point) 0%, #c01a00 100%);
+  padding: var(--space-20) 0;
+}
+
+.inner {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-6);
+}
+
+.title {
+  font-size: var(--font-size-4xl);
+  font-weight: 800;
+  color: var(--color-white);
+  line-height: 1.25;
+  letter-spacing: -1px;
+}
+
+.desc {
+  font-size: var(--font-size-lg);
+  color: rgba(255, 255, 255, 0.85);
+  max-width: 480px;
+}
+
+.actions {
+  display: flex;
+  gap: var(--space-3);
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: var(--space-2);
+}
+
+.actions .btn-primary {
+  background-color: var(--color-white);
+  color: var(--color-point);
+}
+
+.actions .btn-primary:hover {
+  background-color: var(--color-bg);
+}
+
+@media (max-width: 640px) {
+  .title {
+    font-size: var(--font-size-2xl);
+  }
+}
