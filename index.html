@@ -6,6 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="블로그마케터 - 누구나 블로그로 수익을 낼 수 있도록 키워드 분석부터 글 작성까지 도와드립니다" />
     <title>블로그마케터 - 블로그 수익화 마케팅 플랫폼</title>
+    <script>
+      // GitHub Pages SPA redirect handler
+      (function(l) {
+        if (l.search[1] === '/') {
+          var decoded = l.search.slice(1).split('&').map(function(s) {
+            return s.replace(/~and~/g, '&');
+          }).join('?');
+          window.history.replaceState(null, null,
+            l.pathname.slice(0, -1) + decoded + l.hash
+          );
+        }
+      }(window.location));
+    </script>
     <script type="module" crossorigin src="/rest02/assets/index-B4HVBatA.js"></script>
     <link rel="stylesheet" crossorigin href="/rest02/assets/index-4l63zE0Q.css">
   </head>
