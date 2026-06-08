@@ -1,0 +1,22 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#fafaeb"/>
+  <!-- Accent circle -->
+  <circle cx="1050" cy="120" r="300" fill="#aad7cd" opacity="0.35"/>
+  <circle cx="150" cy="520" r="180" fill="#aad7cd" opacity="0.2"/>
+
+  <!-- Logo text -->
+  <text x="80" y="220" font-family="Arial, sans-serif" font-size="72" font-weight="900" fill="#1f2937" letter-spacing="-2">블로그마케터</text>
+  <text x="80" y="225" font-family="Arial, sans-serif" font-size="72" font-weight="900" fill="#f02300">.</text>
+
+  <!-- Tagline -->
+  <text x="84" y="300" font-family="Arial, sans-serif" font-size="36" fill="#4b5563">누구나 블로그로 수익을 낼 수 있도록</text>
+  <text x="84" y="350" font-family="Arial, sans-serif" font-size="36" fill="#4b5563">키워드 분석부터 글 작성까지 도와드립니다</text>
+
+  <!-- Badge -->
+  <rect x="84" y="400" width="320" height="56" rx="28" fill="#f02300"/>
+  <text x="244" y="435" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="white" text-anchor="middle">무료로 시작하기 →</text>
+
+  <!-- URL -->
+  <text x="84" y="560" font-family="Arial, sans-serif" font-size="24" fill="#9ca3af">2-somin.github.io/rest02</text>
+</svg>
